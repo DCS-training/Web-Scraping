@@ -82,7 +82,7 @@ Congratulations! You have now pulled the content of this repository to your Nota
 1. Make sure you have Python installed. If you use Windows, I recommend installing [Anaconda](https://www.anaconda.com/download). For other operating systems, see [https://wiki.python.org/moin/BeginnersGuide/Download](https://wiki.python.org/moin/BeginnersGuide/Download).
 2. If you use Anaconda, install Jupyter via Anaconda (if it is not installed yet). If not, you can use `pip` to install Jupyter Notebook. Type the following into your terminal:
 ```sh
-python3 -m pip install jupyter-notebook
+python3 -m pip install notebook
 ```
 3. Launch your Jupyter Notebook either via Anaconda Navigator, or via your terminal:
 ```sh
