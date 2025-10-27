@@ -56,7 +56,38 @@ Congratulations! You have now pulled the content of this repository to your Nota
 7. Find the download page
 8. Download the version compatible with your operating system 
 
+## Scraping Websites with Python
 
+### Getting ready
+You'll need to install the SelectorGadget extension for the Chrome browser in addition to ensuring you have access to Jupyter Notebook. You can use Jupyter Notebook on the University's Noteable service, which requires no installation. You can also install Jupyter Notebook locally on your computer.
+
+#### Installing SelectorGadget
+1. Open the Chrome browser. If you don't have Chrome, you can install it [here](https://www.google.com/intl/en_uk/chrome/dr/download/?brand=GBSK&ds_kid=43700079594422197&gad_source=1&gclid=CjwKCAjw68K4BhAuEiwAylp3kjjhQbHyA1O0gttd5L0f0a48baOHb_zDWgZlWXotXEhTdnld7o1szRoCRSoQAvD_BwE&gclsrc=aw.ds).
+2. Log in to the Chrome browser with your Google account. If you don't have a Google account, you'll need to sign up for one.
+3. Follow [this link](https://chromewebstore.google.com/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en) to download the SelectorGadget browser extension.
+4. Make sure SelectorGadget is enabled in your Chrome extension toolbar by clicking on the 'Customize and control Google Chrome' icon in the top righthand corner of your browser pane. Mouse over to 'Extensions' on the dropdown menu and select 'Manage Extensions.' Make sure SelectorGadget is toggled 'on.'
+
+#### Accessing Python On Noteable
+
+1. Open the login page [here](https://noteable.edina.ac.uk/login).
+2. Login with your EASE credentials.
+3. Select Standard Python 3 as a personal notebook server and press start.
+4. Go to Git > Clone a Repository
+5. Copy and Paste this repository URL [https://github.com/DCS-training/web-scraping-R-2024](https://github.com/DCS-training/web-scraping-R-2024) as the Repository URL. (The Project directory name will be filled in automatically, but you can change it if you want your folder in Notable to have a different name).
+6. Click 'Clone'
+   
+Congratulations! You have now pulled the content of this repository to your Notable server space.
+
+#### Installing Jupyter Notebook locally
+1. Make sure you have Python installed. If you use Windows, I recommend installing [Anaconda](https://www.anaconda.com/download). For other operating systems, see [https://wiki.python.org/moin/BeginnersGuide/Download](https://wiki.python.org/moin/BeginnersGuide/Download).
+2. If you use Anaconda, install Jupyter via Anaconda (if it is not installed yet). If not, you can use `pip` to install Jupyter Notebook. Type the following into your terminal:
+```sh
+python3 -m pip install jupyter-notebook
+```
+3. Launch your Jupyter Notebook either via Anaconda Navigator, or via your terminal:
+```sh
+jupyter notebook
+```
 
 ## Additional resources
 [Reddit community](https://www.reddit.com/r/webscraping/) focused on web scraping
